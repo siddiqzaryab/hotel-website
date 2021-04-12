@@ -100,7 +100,7 @@ p {
     color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
     float: left;
     padding-top: 20px;
 }
@@ -118,12 +118,14 @@ p {
     display: block;
     padding: 20px;
     text-align: center;
+    border-radius: 4px;
 }
 
 #navbar ul li a:hover, 
 #navbar ul li a.current {
     background-color: #444;
     color: #f7c08a;
+
 }
 
 /* Showcase */
@@ -208,7 +210,7 @@ p {
 
 /* Testimonials */
 #testimonials {
-    height: 600px;
+    height: 100%;
     background: url('../img/test-bg.jpg') no-repeat center center/cover;
     padding-top: 100px ;
 
